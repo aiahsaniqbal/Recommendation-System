@@ -1,0 +1,23 @@
+{
+  "Divider": ":",
+  "Separator": ",",
+  "Debug Mode": "DBG",
+  "On": "1",
+  "Off": "0",
+  "User ID": "UID",
+  "Number of Results": "NR",
+  "Execution Time": "ET",
+  "Recommendation Types": "Type",
+  "Content Based": "Cnt",
+  "Collaborative Item Based": "ColIt",
+  "Collaborative User Based": "ColUsr",
+  "Retrieval Mode": "MD",
+  "Manually Curated Results": "1",
+  "Normal Retrieval": "2",
+  "Book ID Not Found": "0",
+  "Success": "1",
+  "Enter Value Between 1-30": "2",
+  "Message": "MSG",
+  "Status Code": "SC",
+  "": "N"
+}
