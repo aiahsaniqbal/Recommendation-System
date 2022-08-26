@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 from flask import Flask
 from flask_restful import Api, Resource, reqparse, request

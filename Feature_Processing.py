@@ -119,8 +119,8 @@ def get_important_features(data, features):
             # feature_string = feature_string + str(review_cleaned)
                     # repeat title, author and categories twice to give them more impact
             important_features.append(feature_string)
-            if i < 100:
-              print(feature_string)
+            # if i < 100:
+              # print(feature_string)
         except:
            print('Invalid data ',(i, str(data[i])))
            for feature in features:

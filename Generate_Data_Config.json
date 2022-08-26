@@ -1,15 +1,15 @@
 {
   "ContentBasedRecommendItem": "/item_recommend/content_based_rec_item",
-  "hostname": "127.0.0.1",
+  "hostname": "0.0.0.0",
   "portnum": "7000",
   "datapath": "C:\\Users\\ahsan\\Downloads\\FinalPSEBChatbotFolder\\Recommendation_PSEB",
   "output_result": "output_result.npy",
-  "feature_1": ["Searched_History", "Activities", "Past_Created_Oppturnity"],
-  "feature_2": ["BPO Services", "Business Activities", "Tools and Technologies"],
-  "identifier_1": "Techlead_id",
-  "identifier_2": "company_id",
-  "file_1": "TeachLead_data.csv",
-  "file_2": "Companies_data_new.csv",
-  "display_attribute_1": "Name",
-  "display_attribute_2": "City"
+  "feature_1": ["bussiness_acitivites_id","bussiness_acitivites_secondary_id","tools_technologies_id","languages_id"],
+  "feature_2": ["bussiness_acitivites_id","bussiness_acitivites_secondary_id","tools_technologies_id","languages_id"],
+  "identifier_1": "id",
+  "identifier_2": "id",
+  "file_1": "TechLeads_data.csv",
+  "file_2": "Companies_data.csv",
+  "display_attribute_1": "registration_no",
+  "display_attribute_2": "registration_no"
 }

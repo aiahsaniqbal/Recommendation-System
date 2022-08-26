@@ -1,0 +1,6 @@
+id,registration_no,bussiness_acitivites_id,bussiness_acitivites_secondary_id,tools_technologies_id,languages_id,city_name
+16,FQOR-68406-NMEV,"Location-based Services,Customer Relationship Management(CRM)",Data Warehousing Business Intelligence,"SQL/MYSQL,sublime text,jquery,net beans,C#","WebLogic,Hypervisor,RTO",
+17,RGSB-68407-BSZV,"Industrial Automation,Control System Engineering,ESRI Software Distributor","Business Research,Digital Transformation","zend,angular,elixir","Google Cloud,MQ Seriers",
+18,WNGE-68408-CQYZ,"IT Governance & Startegy,Architecture & Design,Design Services","Technical Support,Logistics,Hardware & Software Solutions Provider","Web Development,CAD/CAM,Kibana","ruby,Slack,Octopus Deploy ",
+19,NPLX-68409-EXWC,"Web Automation,Media Development,Statistical Analysis","Location-based Services,Application Managed Services","Angular,Word Press,Slack","CAD/CAM,Slack,wordpress",
+20,BIHM-68410-MNRG,"Education Related Services,Location-based Services,ERP Specialized (Vertical),Financial Specialized (Others)","Risk Analysis,Office Productivity,Biometric Services","DB2,Teradata,Microsoft Access","MQ Seriers,Middleware development,Active MQ",

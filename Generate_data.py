@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+import DataExtractor
 import nltk, string
 import json
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -55,8 +58,8 @@ df_two=Feature_Processing(file_2,feature_2)
 
 out_put={}
 
-print(df_one.head())
-print(df_two.head())
+# print(df_one.head())
+# print(df_two.head())
 
 for index,row in df_one.iterrows():
     out_put[row[identifier_1]]=[(row_two[identifier_2], np.float16(cosine_sim(row['feature_combination'],row_two['feature_combination']))) for i,row_two in df_two.iterrows()]
@@ -87,7 +90,7 @@ for index,row in df_one.iterrows():
 
 for value in out_put:
     out_put[value].sort( key = lambda x: -x[1])
-print(out_put)
+# print(out_put)
 
 # for value in dic:
 #     dic[value].sort( key = lambda x: -x[1])
